@@ -1,0 +1,10 @@
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# служебные логи CatBoost (пересоздаются при обучении)
+catboost_info/
+
+# неиспользуемая тяжёлая геометрия (в работе применяется 1:50m, см. data/geo/ne_50m_admin1.geojson)
+data/geo/ne_10m_admin1.geojson
